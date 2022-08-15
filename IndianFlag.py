@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as py
 import matplotlib.patches as patch
 
-a = patch.Rectangle((0,1), width=12, height=2, facecolor='green', edgecolor='grey')
-b = patch.Rectangle((0,3), width=12, height=2, facecolor='white', edgecolor='grey')
-c = patch.Rectangle((0,5), width=12, height=2, facecolor='#FF9933', edgecolor='grey')
+a = patch.Rectangle((0,1), width=12, height=2, facecolor='green', edgecolor='black')
+b = patch.Rectangle((0,3), width=12, height=2, facecolor='white', edgecolor='black')
+c = patch.Rectangle((0,5), width=12, height=2, facecolor='#FF9933', edgecolor='black')
 
 m,n = py.subplots()
 n.add_patch(a)
