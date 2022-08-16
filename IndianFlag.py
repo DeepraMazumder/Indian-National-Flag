@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as n
 import matplotlib.pyplot as py
 import matplotlib.patches as patch
 
